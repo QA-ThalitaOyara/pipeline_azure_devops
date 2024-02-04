@@ -1,7 +1,7 @@
 {
-  "name": "base-cypress-cucumber-typescript",
+  "name": "pipeline_azure_devops",
   "version": "1.0.0",
-  "description": "BDD, Cypress + Cucumber + Typescript",
+  "description": "first integration with azure devops",
   "main": "",
   "scripts": {
     "cypress:open": "cypress open",
@@ -22,9 +22,9 @@
     "typescript"
   ],
   "author": {
-    "name": "Erik Ccanto",
-    "email": "ccanto.erik@gmail.com",
-    "url": "https://github.com/eccanto"
+    "name": "Thalita Oyara",
+    "email": "thalita_alv3s@hotmail.com",
+    "url": "https://github.com/QA-ThalitaOyara"
   },
   "license": "MIT",
   "dependencies": {

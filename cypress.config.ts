@@ -21,7 +21,10 @@ async function setupNodeEvents(
 
 export default defineConfig({
     e2e: {
-        specPattern: '**/*.feature',
         setupNodeEvents,
+        specPattern: '**/*.feature',
+        baseUrl: 'https://practicetestautomation.com/',
+        defaultCommandTimeout: 10000,
+        experimentalRunAllSpecs: true,
     },
 })
